@@ -1,1 +1,2 @@
 # SQL-TableMaker
+Python file that prompts the user for their postgresql host, database, database user, and password. It then connects to their database and asks for a json file to get the data for the table from. It then asks the user for two keys, a primary and another, the corresponding dictionary value in the json file and the type of the data. It then creates a table that the user names and populates it with this data.
